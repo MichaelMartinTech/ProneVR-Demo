@@ -78,6 +78,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6fcc647512654ff8be1fbc00501ba8b, type: 3}
       insertIndex: -1
       addedObject: {fileID: -6090924122561064377}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6fcc647512654ff8be1fbc00501ba8b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8396126448753829660}
   m_SourcePrefab: {fileID: 100100000, guid: c6fcc647512654ff8be1fbc00501ba8b, type: 3}
 --- !u!1 &3985602862547716667 stripped
 GameObject:
@@ -118,3 +121,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be84be69f7b494dc0b9967e997a92ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8396126448753829660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985602862547716667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_LoopMode: 0
+  m_Method: 0
+  m_Duration: 12
+  m_MaxSpeed: 10
+  m_EasingMode: 0
+  m_AlignmentMode: 1
+  m_ObjectForwardAxis: 2
+  m_ObjectUpAxis: 1
+  m_StartOffset: 0
