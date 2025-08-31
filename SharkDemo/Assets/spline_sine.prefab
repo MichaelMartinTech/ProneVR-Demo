@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5006114852571380650}
   - component: {fileID: 4586999699794084472}
   m_Layer: 0
-  m_Name: Spline
+  m_Name: spline_sine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,77 +61,77 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: -26.829044
-        y: -12
-        z: -7.3
+        x: -29.234238
+        y: -2
+        z: -4.795233
       TangentIn:
         x: -0
         y: -0
-        z: -2.19066
+        z: -2.0514421
       TangentOut:
         x: 0
         y: 0
-        z: 2.19066
+        z: 2.0514421
       Rotation:
         value:
-          x: -0.00000011005165
-          y: 0.4248077
-          z: -0.00000023452485
-          w: 0.9052836
+          x: -0.00000014303615
+          y: 0.5252207
+          z: -0.00000023174809
+          w: 0.85096604
     - Position:
-        x: -9.979739
-        y: -12
-        z: 6.7
+        x: -10.896602
+        y: -2
+        z: 4.401104
       TangentIn:
         x: -0
         y: -0
-        z: -6.0634513
+        z: -6.509923
       TangentOut:
         x: 0
         y: 0
-        z: 6.4395676
+        z: 7.077468
       Rotation:
         value:
-          x: 0.10793174
-          y: 0.67701083
-          z: 0.114615776
-          w: 0.7189369
+          x: 3.3380245e-17
+          y: 0.69041497
+          z: 3.4975665e-17
+          w: 0.7234136
     - Position:
-        x: 10.77974
-        y: -12
-        z: -6.7
+        x: 11.696603
+        y: -2
+        z: -4.401104
       TangentIn:
         x: -0
         y: -0
-        z: -6.4395676
+        z: -7.149019
       TangentOut:
         x: 0
         y: 0
-        z: 6.0634513
+        z: 6.704655
       Rotation:
         value:
-          x: -0.10032282
-          y: 0.67818016
-          z: -0.10653564
-          w: 0.7201786
+          x: -9.765075e-17
+          y: 0.69040895
+          z: -1.0231971e-16
+          w: 0.72341937
     - Position:
-        x: 27.629045
-        y: -12
-        z: 7.3
+        x: 30.76
+        y: -2
+        z: 5.16
       TangentIn:
         x: -0
         y: -0
-        z: -2.19066
+        z: -2.1326692
       TangentOut:
         x: 0
         y: 0
-        z: 2.19066
+        z: 2.1326692
       Rotation:
         value:
-          x: 0.00000050624334
-          y: 0.4248077
-          z: 0.0000010788265
-          w: 0.9052836
+          x: 0.00000075453664
+          y: 0.52520645
+          z: 0.0000012225508
+          w: 0.8509748
     m_MetaData:
     - Mode: 0
       Tension: 0.5

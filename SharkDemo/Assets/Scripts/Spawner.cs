@@ -38,9 +38,12 @@ public class Spawner : MonoBehaviour
 
     public void Spawn()
     {
-        int index = Random.Range(0, creatureCount);
-        currentCreature = Instantiate(creatures[index]);
-        currentSpline = Instantiate(splines[index]);
+        int index1 = Random.Range(0, creatureCount);
+        Debug.Log(index1);
+        currentCreature = Instantiate(creatures[index1]);
+        int index2 = Random.Range(0, creatureCount);
+        Debug.Log(index2);
+        currentSpline = Instantiate(splines[index2]);
         ani = currentCreature.GetComponent<SplineAnimate>();
         ani.Container = currentSpline.GetComponent<SplineContainer>();
         ani.Restart(true);
