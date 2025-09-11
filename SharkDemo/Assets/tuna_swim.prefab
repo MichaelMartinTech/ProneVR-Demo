@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Target: {fileID: 0}
   m_PlayOnAwake: 1
   m_LoopMode: 0
-  m_Method: 0
+  m_Method: 1
   m_Duration: 16
   m_MaxSpeed: 10
   m_EasingMode: 0

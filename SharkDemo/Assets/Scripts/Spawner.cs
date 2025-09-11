@@ -10,8 +10,6 @@ public class Spawner : MonoBehaviour
     GameObject currentSpline;
     SplineAnimate ani;
 
-    Vector3 start_pos = new Vector3(-20f, 0f, 0f);
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,12 +20,9 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(current.transform.position.x > 20f)
-        // {
-        //     Destroy(currentCreature);
-        //     Spawn();
-        // }
-        // current.transform.Translate(Vector3.forward * 1f * Time.deltaTime);
+        // Parametric speed
+        ani.MaxSpeed = calcSpeed(ani.NormalizedTime);
+
         if(ani.NormalizedTime >= 1.0f)
         {
             Destroy(currentCreature);
@@ -39,15 +34,28 @@ public class Spawner : MonoBehaviour
     public void Spawn()
     {
         int index1 = Random.Range(0, creatureCount);
-        Debug.Log(index1);
         currentCreature = Instantiate(creatures[index1]);
         int index2 = Random.Range(0, creatureCount);
-        Debug.Log(index2);
         currentSpline = Instantiate(splines[index2]);
         ani = currentCreature.GetComponent<SplineAnimate>();
+        // ani.AnimationMethod = SplineAnimate.Method.Speed;
         ani.Container = currentSpline.GetComponent<SplineContainer>();
         ani.Restart(true);
-        // current.transform.Rotate(0f, 90f, 0f);
-        // current.transform.position = start_pos;
+    }
+
+    float calcSpeed(float t)
+    {
+        float speed = 213.333f * Mathf.Pow(t, 4f) - 426.667f * Mathf.Pow(t, 3f) + 274.667f * Mathf.Pow(t, 2f) - 61.333f * t + 6f;
+        // Debug.Log(speed);
+        // float speed = 0;
+        // if(ani.NormalizedTime < 0.3 || ani.NormalizedTime > 0.7)
+        // {
+        //     speed = 6;
+        // }
+        // else
+        // {
+        //     speed = 2;
+        // }
+        return speed;
     }
 }
