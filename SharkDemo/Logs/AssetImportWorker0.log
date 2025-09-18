@@ -6556,3 +6556,347 @@ Memory consumption went from 266.8 MB to 263.7 MB.
 Total: 15.811458 ms (FindLiveObjects: 0.858750 ms CreateObjectMapping: 2.381167 ms MarkObjects: 9.331500 ms  DeleteObjects: 3.239084 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bc57000 may have been prematurely finalized
+- Loaded All Assemblies, in  3.765 seconds
+Refreshing native plugins compatible for Editor in 24.51 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.630 seconds
+Domain Reload Profiling: 10402ms
+	BeginReloadAssembly (1342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (74ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (494ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (2129ms)
+		LoadAssemblies (1904ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (722ms)
+			TypeCache.Refresh (67ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (515ms)
+			ResolveRequiredComponents (72ms)
+	FinalizeReload (6630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (175ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (259ms)
+			ProcessInitializeOnLoadAttributes (5593ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6106 unused Assets / (4.3 MB). Loaded Objects now: 7274.
+Memory consumption went from 266.2 MB to 261.9 MB.
+Total: 24.595125 ms (FindLiveObjects: 6.060750 ms CreateObjectMapping: 0.751375 ms MarkObjects: 12.456833 ms  DeleteObjects: 5.325583 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Import Request.
+  Time since last request: 360430.410805 seconds.
+  path: Assets/greenCoral.fbx
+  artifactKey: Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral.fbx using Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1318a89517e33b6433f865d5a48bdec1') in 0.908025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.290999 seconds.
+  path: Assets/greenCoral.fbx
+  artifactKey: Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral.fbx using Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c38272bd61920cff626eea49cfb9e962') in 0.015885958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016219 seconds.
+  path: Assets/greenCoral.fbx
+  artifactKey: Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral.fbx using Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '725405d3851163da68afcfb58e24ca17') in 0.011168208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.957516 seconds.
+  path: Assets/greenCoral.fbx
+  artifactKey: Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral.fbx using Guid(f96b33c5dbba44ae9ba2a888b1d89455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d5d1b45ec9e3f5bf4c2fbe2b680071b') in 0.012498042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.251770 seconds.
+  path: Assets/greenCoral_c.png
+  artifactKey: Guid(7e934888ee72b467c98a5acdaf89c1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral_c.png using Guid(7e934888ee72b467c98a5acdaf89c1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55c064d79583b136ce79f9b6e74e922a') in 0.017037166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.431027 seconds.
+  path: Assets/SmallArch_Fbx.fbx
+  artifactKey: Guid(d89b2ab353c614cb2bd782ee739ff7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SmallArch_Fbx.fbx using Guid(d89b2ab353c614cb2bd782ee739ff7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd40bc7226647fb0701d7924d532f5b94') in 0.084713542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LargeCaveRock_Fbx.fbx
+  artifactKey: Guid(363537a48588542d49028def365c59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LargeCaveRock_Fbx.fbx using Guid(363537a48588542d49028def365c59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e832014e0a56450cb20f90d85e4c125') in 0.0332295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bc57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.995 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1520ms
+	BeginReloadAssembly (352ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (550ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (523ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (3.2 MB). Loaded Objects now: 7296.
+Memory consumption went from 272.5 MB to 269.2 MB.
+Total: 7.808041 ms (FindLiveObjects: 0.616667 ms CreateObjectMapping: 0.425833 ms MarkObjects: 4.567250 ms  DeleteObjects: 2.197959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bc57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6106 unused Assets / (3.3 MB). Loaded Objects now: 7298.
+Memory consumption went from 273.2 MB to 269.9 MB.
+Total: 8.169458 ms (FindLiveObjects: 0.493625 ms CreateObjectMapping: 0.368708 ms MarkObjects: 4.803834 ms  DeleteObjects: 2.502750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 768.965146 seconds.
+  path: Assets/largeRocks.fbx
+  artifactKey: Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/largeRocks.fbx using Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4dc51712091109eae5e0d4fa7076c4') in 0.4111775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.707976 seconds.
+  path: Assets/largeRocks.fbx
+  artifactKey: Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/largeRocks.fbx using Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e09e056a74d4e5bf8766c9714dfe2eb') in 0.011477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013470 seconds.
+  path: Assets/largeRocks.fbx
+  artifactKey: Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/largeRocks.fbx using Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec9e9adf78caece385c2f756e62da60c') in 0.0090215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/greenCoral_mat.mat
+  artifactKey: Guid(8bafb897c36804455bdb7deda61d15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenCoral_mat.mat using Guid(8bafb897c36804455bdb7deda61d15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6907699dc1c95bab4656f560bf4138f5') in 2.477220209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.058966 seconds.
+  path: Assets/largeRocks_c.png
+  artifactKey: Guid(69ca1c06174414c75ba50c258a53086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/largeRocks_c.png using Guid(69ca1c06174414c75ba50c258a53086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb5822e934fbfda82d96741dd54df751') in 0.016717875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.678889 seconds.
+  path: Assets/rockPlatform.fbx
+  artifactKey: Guid(bc48b1865609b4a9883c25508faec60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform.fbx using Guid(bc48b1865609b4a9883c25508faec60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbc0f3ce3f636759c0927bc06eaff737') in 0.115007417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.705222 seconds.
+  path: Assets/rockPlatform 1.fbx
+  artifactKey: Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform 1.fbx using Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47590fb7dc547d5820ffbc2a3ace77b') in 0.030136125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.043719 seconds.
+  path: Assets/rockPlatform 1.fbx
+  artifactKey: Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform 1.fbx using Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ed17569f44796179c8bd72005010dc') in 0.012094458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/rockPlatform 1.fbx
+  artifactKey: Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform 1.fbx using Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e17aad78fe0b2c0dc584336fb73937') in 0.018265083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/largeRocks.fbx
+  artifactKey: Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/largeRocks.fbx using Guid(94632347bc25244d9a2cbb63b8754125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd851a9bc35645faa8a33529f06e9c114') in 0.015962292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.885680 seconds.
+  path: Assets/rockPlatform 1.fbx
+  artifactKey: Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform 1.fbx using Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c98e0b66ce3daa8fc21ca56c5b0038c3') in 0.021059041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.045800 seconds.
+  path: Assets/Graph.shadergraph
+  artifactKey: Guid(b7049b19a5ce942e2ad21783c98e309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graph.shadergraph using Guid(b7049b19a5ce942e2ad21783c98e309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f772581ff0b3567ae7d21131b3bd499') in 0.017606583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904648 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ec8d0aa9f8342e338eb9b913407029') in 0.0891275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277426 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '284071286ef2b983df82a4b4584ae0cc') in 0.049290041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.391504 seconds.
+  path: Assets/rockPlatform 1.fbx
+  artifactKey: Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockPlatform 1.fbx using Guid(d0c6edcd4b244411ca26f48f1e6fcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42292809eba147cf66bb5a280ed6d8b6') in 0.013234709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
