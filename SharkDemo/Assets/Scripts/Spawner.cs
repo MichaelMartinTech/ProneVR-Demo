@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour
         // Parametric speed
         ani.MaxSpeed = calcSpeed(ani.NormalizedTime);
 
-        if(ani.NormalizedTime >= 1.0f)
+        if(ani.NormalizedTime >= 10.0f)
         {
             Destroy(currentCreature);
             Destroy(currentSpline);

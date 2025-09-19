@@ -332,10 +332,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1969.4998779296875,
-            "y": 618.5,
-            "width": 208.0,
-            "height": 302.0
+            "x": -2050.0,
+            "y": 634.0,
+            "width": 208.0001220703125,
+            "height": 301.99993896484377
         }
     },
     "m_Slots": [
@@ -394,7 +394,7 @@
         "m_SerializableColors": []
     },
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"c694702b8f672406295c2372d27fe306\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"085567c689718453d93954bab9429f5e\",\"type\":3}}",
         "m_Guid": ""
     }
 }
@@ -449,7 +449,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 4.0,
+    "m_Value": 3.0,
     "m_DefaultValue": 10.0,
     "m_Labels": []
 }
@@ -1468,10 +1468,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1963.5,
-            "y": 247.49996948242188,
-            "width": 208.0,
-            "height": 302.0000305175781
+            "x": -2051.5,
+            "y": 264.0,
+            "width": 208.0001220703125,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -1672,7 +1672,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 15.0,
+        "x": 12.0,
         "y": 2.0,
         "z": 2.0,
         "w": 2.0
@@ -1825,10 +1825,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -513.4999389648438,
-            "y": 304.5,
-            "width": 207.99996948242188,
-            "height": 326.0
+            "x": -514.5,
+            "y": 278.5000305175781,
+            "width": 208.0,
+            "height": 326.0000305175781
         }
     },
     "m_Slots": [
@@ -1947,7 +1947,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 3.0,
+        "x": 4.0,
         "y": 2.0,
         "z": 2.0,
         "w": 2.0
