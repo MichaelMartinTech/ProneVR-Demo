@@ -3,4 +3,6 @@ Temp/
 UserSettings/
 .vscode/
 
+*.log
+
 .DS_Store
