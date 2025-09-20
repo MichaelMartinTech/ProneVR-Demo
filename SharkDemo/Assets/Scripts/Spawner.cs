@@ -8,6 +8,10 @@ public class Spawner : MonoBehaviour
     public GameObject[] splines;
     public float speedMultiplier = 1f;
     
+    // Smoothening
+    [Range(0f, 1f)] public float smoothenVal = 0.5f;
+    private float smoothVel;
+
     int creatureCount;
     GameObject currentCreature;
     GameObject currentSpline;
@@ -39,8 +43,15 @@ public class Spawner : MonoBehaviour
         // convert world speed to normalized progress increments
         float deltaProgress = (currentSpeed * Time.deltaTime) / splineLength;
         progress += deltaProgress;
+        progress = Mathf.Clamp01(progress); // Added clamping
         // move along spline
-        ani.NormalizedTime = progress;
+        //ani.NormalizedTime = progress;
+        ani.NormalizedTime = Mathf.SmoothDamp(
+            ani.NormalizedTime,
+            progress,
+            ref smoothVel,
+            1f - smoothenVal
+        );
 
         //if(ani.NormalizedTime >= 10.0f)
         // End of progress --> spawn new one
