@@ -3440,3 +3440,819 @@ Received Import Request.
 Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f933d9f52135f61f244b88f4c78a6376') in 0.013233209 seconds
 Number of updated asset objects reloaded before import = 20Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (539ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (2.9 MB). Loaded Objects now: 7113.
+Memory consumption went from 180.3 MB to 177.4 MB.
+Total: 7.584834 ms (FindLiveObjects: 0.493958 ms CreateObjectMapping: 0.603791 ms MarkObjects: 4.639500 ms  DeleteObjects: 1.847334 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 1012ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (3.6 MB). Loaded Objects now: 7115.
+Memory consumption went from 180.2 MB to 176.6 MB.
+Total: 7.959166 ms (FindLiveObjects: 0.439750 ms CreateObjectMapping: 0.386250 ms MarkObjects: 5.156625 ms  DeleteObjects: 1.976416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (556ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (2.8 MB). Loaded Objects now: 7117.
+Memory consumption went from 179.9 MB to 177.1 MB.
+Total: 8.686917 ms (FindLiveObjects: 0.472917 ms CreateObjectMapping: 0.669500 ms MarkObjects: 5.346458 ms  DeleteObjects: 2.197292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9100.594752 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a5ef747ba5a39e7f29c87db7dbcc412') in 0.470353792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 667.472553 seconds.
+  path: Assets/grp2.prefab
+  artifactKey: Guid(2b2f3a3725f4144a48d4c49bdbd35f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grp2.prefab using Guid(2b2f3a3725f4144a48d4c49bdbd35f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7fd7958a2fbf13547230d57d3d5bbbb') in 0.059230708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 274
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.364794 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ea7658cc7560b5c11fee3ebcf5852f8') in 0.200265625 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6108 unused Assets / (3.0 MB). Loaded Objects now: 7139.
+Memory consumption went from 185.3 MB to 182.3 MB.
+Total: 7.429625 ms (FindLiveObjects: 0.469917 ms CreateObjectMapping: 0.370666 ms MarkObjects: 4.714375 ms  DeleteObjects: 1.873667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.383935 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '264844b6e32f7479a296e334fa12b9ce') in 0.469761584 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.362087 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeefab6ba4953975d3fc4a1680ff2bd6') in 0.234517833 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.799740 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec5b156010905fed6f9a321ea13067d') in 0.23260925 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.923598 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41a88e6f04c94de022e1d9d72009e93d') in 0.209447042 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (3.8 MB). Loaded Objects now: 7161.
+Memory consumption went from 190.0 MB to 186.2 MB.
+Total: 5.507292 ms (FindLiveObjects: 0.358667 ms CreateObjectMapping: 0.211083 ms MarkObjects: 3.687417 ms  DeleteObjects: 1.249833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 143.955646 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bd6b1a57a27ef888653cb2d054b08c7') in 0.455601292 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.805627 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40039e037bf0242ba82e0f4f1e977846') in 0.210533625 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.570779 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efabf6574d18d851f8737b3b005fea9c') in 0.212930208 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.710235 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c0b1e2c5fd8230795b03ec185f19c3') in 0.20359625 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.941133 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c5020f19206a797be7d7e212eb6a8aa') in 0.204727916 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.223108 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '117fdb6a5f86948ef5432d0c88046833') in 0.173731875 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.724662 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17409609172cfcd9a1c00616721a06e7') in 0.006453542 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.409292 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e404c5dceee897035eb1c77e4e15b17') in 0.206122375 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.486510 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b3ae54f4a442cfe535d5e42c44ede5') in 0.205253959 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.269727 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57b662fdfe7874c119c40313a273f64') in 0.204872 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.361458 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d1593beeaaf37ebdfec00bca959944') in 0.204761625 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.129978 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d520801bee92486cd8541892bbcb5b4') in 0.206956042 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.850394 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0e839f06754cc423dd2c083a4adc39e') in 0.202809667 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.084951 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd02b77efc0a82f3ec6555de25251a5d') in 0.204028125 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.858242 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33e05494de83cce83f800ff7d6f13960') in 0.201765667 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 952ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (2.8 MB). Loaded Objects now: 7183.
+Memory consumption went from 194.5 MB to 191.7 MB.
+Total: 7.173167 ms (FindLiveObjects: 0.549250 ms CreateObjectMapping: 0.357167 ms MarkObjects: 4.528416 ms  DeleteObjects: 1.737750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.856770 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc0bce4da4e57bf960c5322532a9d25e') in 0.465006667 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.720802 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0000f71ca6d0c8ac3afda65b75e8e1eb') in 0.308790083 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.083453 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f3569b46c62b27eed58ef76f19aa0a8') in 0.318494792 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.605501 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4c2481bb30da7ac33035f041bdc0ba1') in 0.006364459 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (2.8 MB). Loaded Objects now: 7205.
+Memory consumption went from 199.2 MB to 196.4 MB.
+Total: 6.198042 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.337875 ms MarkObjects: 4.111833 ms  DeleteObjects: 1.397875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.152384 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f87e5f34b6406a125c38862e450009') in 0.394419834 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.358685 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b2fa3209926f982aeddeab2dde4f0c') in 0.008928416 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.918912 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a10f231d251405b07c219836f0e39fb') in 0.333542 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.793748 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a82dc930214e5b85b3968f21490c655') in 0.010667791 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.558629 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e677037d5af46b3662d80ce5eecc191') in 0.338648917 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.204219 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c9563edf22f2e022250e8af8b998302') in 0.308815458 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.897758 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c6452619859964bb38c4440bcd29152') in 0.319832666 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.842659 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd3a9877b82b28c9099908a339d94b63') in 0.205522791 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.428082 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13b2ef6191a5754a46cb7691ab82f17') in 0.006420708 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.962703 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92fae274fc8f8c9e99f0e234cff4f805') in 0.206126041 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.028291 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580085a22ed02d61221c4c6513ef68d4') in 0.201558625 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.690949 seconds.
+  path: Assets/grp3.prefab
+  artifactKey: Guid(1ccc2b94ad2a14fd19c3e8fafa691b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grp3.prefab using Guid(1ccc2b94ad2a14fd19c3e8fafa691b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f4b215663812df88215c2dca5a6a257') in 0.06420125 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.451 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (451ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6108 unused Assets / (3.3 MB). Loaded Objects now: 7227.
+Memory consumption went from 204.2 MB to 200.9 MB.
+Total: 7.391500 ms (FindLiveObjects: 0.428542 ms CreateObjectMapping: 0.402167 ms MarkObjects: 4.829166 ms  DeleteObjects: 1.731208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1163.699635 seconds.
+  path: Assets/AtmPersp_mat.mat
+  artifactKey: Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '825c047478ce8214b660d91f3911e1d5') in 0.272529 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f98b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6107 unused Assets / (3.1 MB). Loaded Objects now: 7249.
+Memory consumption went from 208.9 MB to 205.9 MB.
+Total: 7.522625 ms (FindLiveObjects: 0.478250 ms CreateObjectMapping: 0.477416 ms MarkObjects: 4.436417 ms  DeleteObjects: 2.130333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
