@@ -3,7 +3,7 @@ using UnityEngine;
 public class LayerSpawner : MonoBehaviour
 {
     public GameObject[] layers; // Layer prefabs
-    [Range(0f, 100f)] public float speed; // speed in cm/sec
+    [Range(0f, 200f)] public float speed; // speed in cm/sec
     public float maxStartHeight; // initial position of the highest layer
     public float spacing; // Adjust spacing between layers
     public GameObject camera; // camera object
