@@ -1,145 +1,3 @@
-Using pre-set license
-Built from '6000.1/staging' branch; Version is '6000.1.14f1 (db7aa045cc2c) revision 14383776'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16107 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-10-02T22:07:55Z
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.1.14f1\Editor\Unity.exe
--adb2
--batchMode
--noUpm
--name
-AssetImportWorker0
--projectPath
-C:/Users/DRI/OneDrive - University of Nevada, Reno/Documents/Unity_Projects/cleanTest2/ProneVR_WaterDev_MRM/SharkDemo
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-58632
--job-worker-count
-3
--background-job-worker-count
-8
--gc-helper-count
-1
--name
-AssetImport
-Successfully changed project path to: C:/Users/DRI/OneDrive - University of Nevada, Reno/Documents/Unity_Projects/cleanTest2/ProneVR_WaterDev_MRM/SharkDemo
-C:/Users/DRI/OneDrive - University of Nevada, Reno/Documents/Unity_Projects/cleanTest2/ProneVR_WaterDev_MRM/SharkDemo
-[UnityMemory] Configuration Parameters - Can be set up in boot.config
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-bucket-allocator-granularity=16"
-    "memorysetup-bucket-allocator-bucket-count=8"
-    "memorysetup-bucket-allocator-block-size=33554432"
-    "memorysetup-bucket-allocator-block-count=8"
-    "memorysetup-main-allocator-block-size=16777216"
-    "memorysetup-thread-allocator-block-size=16777216"
-    "memorysetup-gfx-main-allocator-block-size=16777216"
-    "memorysetup-gfx-thread-allocator-block-size=16777216"
-    "memorysetup-cache-allocator-block-size=4194304"
-    "memorysetup-typetree-allocator-block-size=2097152"
-    "memorysetup-profiler-bucket-allocator-granularity=16"
-    "memorysetup-profiler-bucket-allocator-bucket-count=8"
-    "memorysetup-profiler-bucket-allocator-block-size=33554432"
-    "memorysetup-profiler-bucket-allocator-block-count=8"
-    "memorysetup-profiler-allocator-block-size=16777216"
-    "memorysetup-profiler-editor-allocator-block-size=1048576"
-    "memorysetup-temp-allocator-size-main=16777216"
-    "memorysetup-job-temp-allocator-block-size=2097152"
-    "memorysetup-job-temp-allocator-block-size-background=1048576"
-    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [36140]  Target information:
-
-Player connection [36140]  * "[IP] 128.120.76.40 [Port] 0 [Flags] 2 [Guid] 2957271783 [EditorId] 2957271783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VHPELKK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [36140] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [36140] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
-Input System module state changed to: Initialized.
-[Physics::Module] Initialized fallback backend.
-[Physics::Module] Id: 0xdecafbad
-Library Redirect Path: Library/
-[Physics::Module] Selected backend.
-[Physics::Module] Name: PhysX
-[Physics::Module] Id: 0xf2b8ea05
-[Physics::Module] SDK Version: 4.1.2
-[Physics::Module] Integration Version: 1.0.0
-[Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 17.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.1.14f1 (db7aa045cc2c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/DRI/OneDrive - University of Nevada, Reno/Documents/Unity_Projects/cleanTest2/ProneVR_WaterDev_MRM/SharkDemo/Assets
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:         Direct3D 12 [level 12.1]
-    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:          Intel
-    VRAM:            8053 MB
-    App VRAM Budget: 7394 MB
-    Driver:          32.0.101.7029
-    Unified Memory Architecture
-    Cache Coherent UMA
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010746 seconds.
-- Loaded All Assemblies, in  2.406 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.451 seconds
-Domain Reload Profiling: 3847ms
-	BeginReloadAssembly (776ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (0ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (308ms)
-	RebuildNativeTypeToScriptingClass (71ms)
-	initialDomainReloadingComplete (212ms)
-	LoadAllAssembliesAndSetupDomain (1026ms)
-		LoadAssemblies (755ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1014ms)
-			TypeCache.Refresh (1008ms)
-				TypeCache.ScanAssembly (955ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1453ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1283ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (245ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (282ms)
-			ProcessInitializeOnLoadAttributes (549ms)
-			ProcessInitializeOnLoadMethodAttributes (192ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (0ms)
-========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
@@ -198,7 +56,6 @@ Unloading 6109 unused Assets / (4.3 MB). Loaded Objects now: 6822.
 Memory consumption went from 143.6 MB to 139.4 MB.
 Total: 21.602300 ms (FindLiveObjects: 1.154900 ms CreateObjectMapping: 2.157800 ms MarkObjects: 13.047100 ms  DeleteObjects: 5.239000 ms)
 
-========================================================================
 Received Import Request.
   Time since last request: 239293.425493 seconds.
   path: Assets/spline_bend.prefab
@@ -206,7 +63,6 @@ Received Import Request.
 Start importing Assets/spline_bend.prefab using Guid(b638aa79c8ded420a99768623a344f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e0c85a3a26b6652d3234d5a39a499a6') in 0.1486473 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
   path: Assets/grp3.prefab
@@ -214,7 +70,6 @@ Received Import Request.
 Start importing Assets/grp3.prefab using Guid(1ccc2b94ad2a14fd19c3e8fafa691b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e587100195755484154c8789fd54add1') in 36.3909406 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
 
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 DirectoryNotFoundException: Could not find a part of the path "C:\Users\DRI\OneDrive - University of Nevada, Reno\Documents\Unity_Projects\cleanTest2\ProneVR_WaterDev_MRM\SharkDemo\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
@@ -3490,7 +3345,6 @@ Memory consumption went from 157.8 MB to 153.4 MB.
 Total: 24.891600 ms (FindLiveObjects: 0.963200 ms CreateObjectMapping: 1.646500 ms MarkObjects: 13.203000 ms  DeleteObjects: 9.076100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
   Time since last request: 7.435714 seconds.
   path: Assets/grp1.prefab
@@ -3498,7 +3352,6 @@ Received Import Request.
 Start importing Assets/grp1.prefab using Guid(74141d43c69c34234b97274f21b36ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9511408b2e65cf36a4901ec18c18c63') in 2.1522796 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 372
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000098 seconds.
   path: Assets/seaweed_mesh.fbx
@@ -3506,7 +3359,6 @@ Received Import Request.
 Start importing Assets/seaweed_mesh.fbx using Guid(f51a6d66bba3f4240bda572333977640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70299f2e61cf05eea7ee777beeae793f') in 4.351884 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000049 seconds.
   path: Assets/spline_line.prefab
@@ -3514,7 +3366,6 @@ Received Import Request.
 Start importing Assets/spline_line.prefab using Guid(ac8c80c9f75cc4ae3a8d14d7c3d61eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca322de186ca23fc7ee028a34a5241ae') in 0.0053424 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000253 seconds.
   path: Assets/spline_sine.prefab
@@ -3522,7 +3373,6 @@ Received Import Request.
 Start importing Assets/spline_sine.prefab using Guid(409644412a2be4a8ba31b26d65396132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9425da0e9f7b307fe34d9d6484fec44') in 0.0045374 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
   path: Assets/manta.prefab
@@ -3530,7 +3380,6 @@ Received Import Request.
 Start importing Assets/manta.prefab using Guid(5f8539950d5aa4d4eb41ff75a33469d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1dfc875598f6678b061af437f0cf369') in 0.0805563 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000115 seconds.
   path: Assets/InputSystem_Actions.inputactions
@@ -3538,7 +3387,6 @@ Received Import Request.
 Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3f70f0364ded6a0e35bba7f5564b43') in 0.0120732 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
   path: Assets/Readme.asset
@@ -3546,7 +3394,6 @@ Received Import Request.
 Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.006412 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
   path: Assets/grp2.prefab
@@ -3554,7 +3401,6 @@ Received Import Request.
 Start importing Assets/grp2.prefab using Guid(2b2f3a3725f4144a48d4c49bdbd35f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2500d8b631fdb09e18327b6adeb0c0') in 0.0976606 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 301
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000092 seconds.
   path: Assets/Caustic_mat.mat
@@ -3562,7 +3408,6 @@ Received Import Request.
 Start importing Assets/Caustic_mat.mat using Guid(9c68673d41f6e422d96a3f3b25335879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf1ed343c6f48e40f187145e077f5cb5') in 0.1199682 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
 Received Import Request.
   Time since last request: 64.899894 seconds.
   path: Assets/tuna_swim.prefab
@@ -3570,7 +3415,6 @@ Received Import Request.
 Start importing Assets/tuna_swim.prefab using Guid(615209d1ecc9e4d56bfd949d163cab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb0e67bd0d899307457546d4fac0d18') in 0.1153264 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
-========================================================================
 Received Import Request.
   Time since last request: 6.995310 seconds.
   path: Assets/Sprites/Bubble.mat
@@ -3578,7 +3422,6 @@ Received Import Request.
 Start importing Assets/Sprites/Bubble.mat using Guid(448adf70f10a82b428224e450e86dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a86046e55484134a350fa7650c67b19') in 5.4381348 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 DirectoryNotFoundException: Could not find a part of the path "C:\Users\DRI\OneDrive - University of Nevada, Reno\Documents\Unity_Projects\cleanTest2\ProneVR_WaterDev_MRM\SharkDemo\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
@@ -6854,7 +6697,6 @@ Memory consumption went from 168.6 MB to 163.9 MB.
 Total: 39.488900 ms (FindLiveObjects: 2.341500 ms CreateObjectMapping: 5.259200 ms MarkObjects: 21.368300 ms  DeleteObjects: 10.516100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
   Time since last request: 151.675574 seconds.
   path: Assets/AtmPersp.shadergraph
@@ -6862,7 +6704,6 @@ Received Import Request.
 Start importing Assets/AtmPersp.shadergraph using Guid(ce294ff96eae24f989fbc14703517f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb35ab588ad4027208d79f32752b7fa3') in 0.8010703 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
 Received Import Request.
   Time since last request: 99.481408 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6870,7 +6711,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c8c19cc5c3e5fae76c8fa43f2f9d21') in 0.5432115 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 2.652324 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6878,7 +6718,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed86f73e796ea7c318d842769d861cb') in 0.5422088 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 4.475095 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6886,7 +6725,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cacd981f85fc3be51eaacf1e4ac0d8a') in 0.5919168 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 2.321788 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6894,7 +6732,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72da161cd28550891eca9f3cc8694941') in 0.5636764 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 2.496720 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6902,7 +6739,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5edecf5141c93d862a80164e991dfa5') in 0.6084032 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 1.904123 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6910,7 +6746,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c703c15b8016032f97a5c53eddc581a') in 0.5815992 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 1.800782 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6918,7 +6753,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aadb6d87d1872ffbb610f651871c70c4') in 0.5734425 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 2.251969 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6926,7 +6760,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c688e298183131874d15b6da35b656bd') in 0.5811604 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 4.409911 seconds.
   path: Assets/AtmPersp_mat.mat
@@ -6934,7 +6767,6 @@ Received Import Request.
 Start importing Assets/AtmPersp_mat.mat using Guid(a23e44953a06e4412babc9fa9729420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa7dcc51450a83ff1eca240654cf881') in 0.5614238 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
 
-========================================================================
 Received Import Request.
   Time since last request: 14.136690 seconds.
   path: Assets/Textures
@@ -6942,7 +6774,6 @@ Received Import Request.
 Start importing Assets/Textures using Guid(fc99b184c8ea4425e8b31f030c87a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d2a54a15727e1b7ba163555f4657c8') in 0.0018482 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
   path: Assets/Textures/Atlantic bluefin tuna.tga
@@ -6950,7 +6781,6 @@ Received Import Request.
 Start importing Assets/Textures/Atlantic bluefin tuna.tga using Guid(023713df5f8204314b3ebd47764eede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283793a85e88dc663cc4a8000769dde3') in 0.0632474 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
   path: Assets/Textures/sand_n.tga
@@ -6958,7 +6788,6 @@ Received Import Request.
 Start importing Assets/Textures/sand_n.tga using Guid(035685b17dff54becabdf033d5fc0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9436b9ec62f543c32d968b75439209') in 0.0857122 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000090 seconds.
   path: Assets/Textures/seaweed_c.png
@@ -6966,7 +6795,6 @@ Received Import Request.
 Start importing Assets/Textures/seaweed_c.png using Guid(27c87a2f627b84bdeac7757dda1d5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca62830ff690bde9532ff83e2f6477dd') in 0.0887882 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000078 seconds.
   path: Assets/Textures/caustics_bw_049.png
@@ -6974,7 +6802,6 @@ Received Import Request.
 Start importing Assets/Textures/caustics_bw_049.png using Guid(fd47e16aeeff2408487098556f42fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eb65feb9629ebc1c2a4945736fddbd9') in 0.0595686 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
   path: Assets/Textures/caustics_bw.gif
@@ -6982,7 +6809,6 @@ Received Import Request.
 Start importing Assets/Textures/caustics_bw.gif using Guid(085567c689718453d93954bab9429f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7df91deeeb0998acb15b41462fa8bd') in 0.065568 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000048 seconds.
   path: Assets/Textures/TropicalFish15.jpg
@@ -6990,7 +6816,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish15.jpg using Guid(ef0e51b5c787e4a998f42df003e007e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9edcd3eb4b97436c8ff8cff06e398188') in 0.0745751 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000074 seconds.
   path: Assets/Textures/shark_c.png
@@ -6998,7 +6823,6 @@ Received Import Request.
 Start importing Assets/Textures/shark_c.png using Guid(8c726f916efaa4448b12e03cbd549272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95f909135b1b5227cb11e04b1e79c50a') in 0.0692547 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000078 seconds.
   path: Assets/Textures/coral4_n.png
@@ -7006,7 +6830,6 @@ Received Import Request.
 Start importing Assets/Textures/coral4_n.png using Guid(357486ac9ef1c4097bf7d3de4bf3ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc7d8b76e3f88d1812f753dc6d68684') in 0.067499 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000079 seconds.
   path: Assets/Textures/TropicalFish03.jpg
@@ -7014,7 +6837,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish03.jpg using Guid(1166d3ff684ae43729551be2ccf4a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce9b4c5e58b1be9529c92cfc910851c4') in 0.0738211 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000074 seconds.
   path: Assets/Textures/sand_c.tga
@@ -7022,7 +6844,6 @@ Received Import Request.
 Start importing Assets/Textures/sand_c.tga using Guid(2c44732953f0b4a4b9b246ccb8b3570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b551877fcb1286090a7679522ff1dbf7') in 0.07058 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000092 seconds.
   path: Assets/Textures/caustics_blurred.png
@@ -7030,7 +6851,6 @@ Received Import Request.
 Start importing Assets/Textures/caustics_blurred.png using Guid(c694702b8f672406295c2372d27fe306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee172a3d68363ccfa7a20c759b0e991a') in 0.0810268 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000072 seconds.
   path: Assets/Textures/TropicalFish11.jpg
@@ -7038,7 +6858,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish11.jpg using Guid(9c2f13b8ed5584e46aa451cd4573d494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6149f98a5feb8c9cf002a1d29ea2dd6b') in 0.0927265 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000297 seconds.
   path: Assets/Textures/TropicalFish10.jpg
@@ -7046,7 +6865,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish10.jpg using Guid(21f28d32764b0479999b9937111df8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cafa19a8202032f615f49a5c301d65a6') in 0.0586155 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
   path: Assets/Sprites/BubbleSimple.png
@@ -7054,7 +6872,6 @@ Received Import Request.
 Start importing Assets/Sprites/BubbleSimple.png using Guid(accb0cfebfa115e4ead2b02f215c4d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aff37d72f3a68cb56002a109150f6309') in 0.0485659 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000124 seconds.
   path: Assets/Textures/caustics_bw_000.png
@@ -7062,7 +6879,6 @@ Received Import Request.
 Start importing Assets/Textures/caustics_bw_000.png using Guid(a6d6bb5d06bb5422b83da321ac3dfb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ca6330827bc3e55070318c1028da4b') in 0.1455223 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000087 seconds.
   path: Assets/Textures/TropicalFish02.jpg
@@ -7070,7 +6886,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish02.jpg using Guid(93e0a7179c9e748d28d1040fd87c6d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ae0542a99fc9589a2d883f3f84b10a5') in 0.0562473 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000263 seconds.
   path: Assets/Textures/TropicalFish08.jpg
@@ -7078,7 +6893,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish08.jpg using Guid(32e28a20ca301480291d10ac95aeeb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1419224a5236400f7f355900739e5a5b') in 0.05228 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000063 seconds.
   path: Assets/Textures/coral4_ylw_c.png
@@ -7086,7 +6900,6 @@ Received Import Request.
 Start importing Assets/Textures/coral4_ylw_c.png using Guid(1a25911bcc5b740b6850418827925c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd79bf07b7afae39e2a682c104966d9ad') in 0.0442124 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000057 seconds.
   path: Assets/Textures/TropicalFish09.jpg
@@ -7094,7 +6907,6 @@ Received Import Request.
 Start importing Assets/Textures/TropicalFish09.jpg using Guid(5837881f93fb04f22b0fcace5fdeffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09b01b739dac0ed082955b2f40bc76f1') in 0.0405157 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000057 seconds.
   path: Assets/Textures/perlin1.png
@@ -7102,7 +6914,6 @@ Received Import Request.
 Start importing Assets/Textures/perlin1.png using Guid(572e09f5e80334f4fa59229ca1174252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '340d3a13816b44766c8e285bd4ac350a') in 0.0623672 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 0.000144 seconds.
   path: Assets/Textures/largeRocks2k_c.png
@@ -7110,7 +6921,6 @@ Received Import Request.
 Start importing Assets/Textures/largeRocks2k_c.png using Guid(62024bc21ef9643f48891fcd62809bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea2b11ec920c20ced6f571151b4c620d') in 0.063144 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Import Request.
   Time since last request: 45.225286 seconds.
   path: Assets/Sprites/Bubble.mat
@@ -7118,7 +6928,6 @@ Received Import Request.
 Start importing Assets/Sprites/Bubble.mat using Guid(448adf70f10a82b428224e450e86dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00eb6b7b0a61d64756108f0736c48806') in 0.0456629 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 DirectoryNotFoundException: Could not find a part of the path "C:\Users\DRI\OneDrive - University of Nevada, Reno\Documents\Unity_Projects\cleanTest2\ProneVR_WaterDev_MRM\SharkDemo\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
@@ -10394,7 +10203,6 @@ Memory consumption went from 169.6 MB to 164.9 MB.
 Total: 14.859500 ms (FindLiveObjects: 1.345100 ms CreateObjectMapping: 1.404000 ms MarkObjects: 7.456100 ms  DeleteObjects: 4.652500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 DirectoryNotFoundException: Could not find a part of the path "C:\Users\DRI\OneDrive - University of Nevada, Reno\Documents\Unity_Projects\cleanTest2\ProneVR_WaterDev_MRM\SharkDemo\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
