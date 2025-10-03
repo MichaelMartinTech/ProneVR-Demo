@@ -23,7 +23,7 @@ A Unity-based VR application designed to support research towards immersive, pat
 - Centralized camera manager for cross-scene access (CenterEyeAnchor persistence)  
 
 ### Environment Enhancements ([@MichaelMartinTech](https://github.com/MichaelMartinTech), [@ChanGarrickT](https://github.com/ChanGarrickT))
-- Coral shader update: switched to opacity-based visibility for improved rendering in VR (``MichaelMartinTech``)  
+- **Coral shader update**: switched to opacity-based visibility for improved rendering in VR (``MichaelMartinTech``)  
 - Environment setup, coral/rocks, and initial shader graphs (``ChanGarrickT``)
 - Bubble/particle and caustics improvements (``MichaelMartinTech``)  
 - Atmospheric perspective, fog, and depth blending (``MichaelMartinTech``, ``ChanGarrickT``)  
