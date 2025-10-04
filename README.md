@@ -12,6 +12,8 @@ A Unity-based VR application designed to support research towards immersive, pat
 
 ## Added Features (as of 10/3/2025)
 
+[Demo-Video_10-3-2025](https://github.com/user-attachments/assets/62127579-cd04-4edd-922d-a3501efd7263)
+
 ### Fish Movement Component ([@MichaelMartinTech](https://github.com/MichaelMartinTech), updated from 'Spawner.cs': [@MichaelMartinTech](https://github.com/MichaelMartinTech), [@ChanGarrickT](https://github.com/ChanGarrickT))
 - Spline-based pathing with adjustable offsets for natural variation (``ChanGarrickT``)
 - Side wandering for more lifelike behavior  
