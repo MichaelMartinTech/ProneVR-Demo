@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2639C7C-3AD7-22E8-99BA-91DF7906440F}|Assembly-CSharp.csproj|c:\\users\\micha\\desktop\\projects\\pronevr\\waterdev_pronevr\\vr_waterdemo\\assets\\scripts\\canvasscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2639C7C-3AD7-22E8-99BA-91DF7906440F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvasscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2639C7C-3AD7-22E8-99BA-91DF7906440F}|Assembly-CSharp.csproj|c:\\users\\micha\\desktop\\projects\\pronevr\\waterdev_pronevr\\vr_waterdemo\\assets\\scripts\\fishavoidcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2639C7C-3AD7-22E8-99BA-91DF7906440F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fishavoidcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FishAvoidCamera.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Assets\\Scripts\\FishAvoidCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FishAvoidCamera.cs",
+              "ToolTip": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Assets\\Scripts\\FishAvoidCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FishAvoidCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T22:57:15.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CanvasScript.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Assets\\Scripts\\CanvasScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasScript.cs",
+              "ToolTip": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Assets\\Scripts\\CanvasScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CanvasScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T22:54:25.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OVRManager.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs",
@@ -30,18 +64,17 @@
               "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Scripts\\OVRManager.cs",
               "ViewState": "AgIAAHsHAAAAAAAAAAArwIoHAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T03:16:14.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T03:16:14.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OVRConfig.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs",
               "ToolTip": "C:\\Users\\Micha\\Desktop\\Projects\\ProneVR\\WaterDev_ProneVR\\VR_WaterDemo\\Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@503a72ca5496\\Editor\\OVRConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T22:42:52.955Z",
               "EditorCaption": ""
