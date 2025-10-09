@@ -174,7 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2bef1e64b0c65459ec74dbc76fd4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
   distanceFromCamera: 4
   maxAvoidDistance: 5
   smoothTime: 0.5
@@ -267,7 +266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2bef1e64b0c65459ec74dbc76fd4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
   distanceFromCamera: 4
   maxAvoidDistance: 5
   smoothTime: 0.5
@@ -938,7 +936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2bef1e64b0c65459ec74dbc76fd4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
   distanceFromCamera: 4
   maxAvoidDistance: 5
   smoothTime: 0.5
@@ -2126,7 +2123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2bef1e64b0c65459ec74dbc76fd4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
   distanceFromCamera: 4
   maxAvoidDistance: 5
   smoothTime: 0.5
