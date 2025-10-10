@@ -18,7 +18,6 @@ public class FishAvoidCamera : MonoBehaviour
     [Header("Dodge settings")]
     public float distanceFromCamera = 6f;   // start moving away when camera is this close
     public float maxAvoidDistance = 1f;     // how far fish offset away from path
-    public float turnSpeed = 2f;            // how fast the fish turns when dodging
 
     private SplineAnimate ani;
     private Vector3 offset_T;
@@ -66,7 +65,7 @@ public class FishAvoidCamera : MonoBehaviour
                 // Cross product to see if cam is to left or right of fish
                 Vector3 toCam = (targetCamera.position - basePos).normalized;
                 float side = Vector3.Dot(Vector3.Cross(forward, Vector3.up), toCam);
-                dodgeSide = side > 0 ? -1 : 1; // pick left or right consistently
+                dodgeSide = side > 0 ? 1 : -1; // pick left or right consistently
             }
 
             // Sideways direction (right or left relative to forward)
@@ -75,8 +74,6 @@ public class FishAvoidCamera : MonoBehaviour
             // Scale offset based on how close the camera is
             float strength = ease((distanceFromCamera - dist) / distanceFromCamera);
             offset_T = sideways * (maxAvoidDistance * strength);
-
-            // Smooth move toward desired offset
         }
         else
         {
