@@ -13,17 +13,19 @@ public class FishAvoidCamera : MonoBehaviour
 {
     //[Header("Camera to avoid")]
     private Transform targetCamera;
+    private GameObject proxy;
 
     [Header("Dodge settings")]
-    public float distanceFromCamera = 4f;    // start moving away when camera is this close
-    public float maxAvoidDistance = 5f;    // how far fish offset away from path
-    public float smoothTime = 0.5f;          // smoothing for movement
-    public float turnSpeed = 2f;             // how fast the fish turns when dodging
+    public float distanceFromCamera = 6f;   // start moving away when camera is this close
+    public float maxAvoidDistance = 1f;     // how far fish offset away from path
+    public float turnSpeed = 2f;            // how fast the fish turns when dodging
 
     private SplineAnimate ani;
-    private Vector3 avoidanceOffset;
+    private Vector3 offset_T;
     private Vector3 velocity;
     private int dodgeSide = 0;               // -1 = left, +1 = right
+
+    private Vector3 prevPos;
 
     void Awake()
     {
@@ -41,6 +43,7 @@ public class FishAvoidCamera : MonoBehaviour
     void Start() // run after all Awake() calls have finished.
     {
         targetCamera = CenterCameraManager.CenterCam;
+        proxy = transform.GetChild(0).gameObject;
     }
 
     void LateUpdate()
@@ -70,29 +73,34 @@ public class FishAvoidCamera : MonoBehaviour
             Vector3 sideways = Vector3.Cross(Vector3.up, forward).normalized * dodgeSide;
 
             // Scale offset based on how close the camera is
-            float strength = Mathf.InverseLerp(distanceFromCamera, 0f, dist);
-            Vector3 desiredOffset = sideways * (maxAvoidDistance * strength);
+            float strength = ease((distanceFromCamera - dist) / distanceFromCamera);
+            offset_T = sideways * (maxAvoidDistance * strength);
 
             // Smooth move toward desired offset
-            avoidanceOffset = Vector3.SmoothDamp(avoidanceOffset, desiredOffset, ref velocity, smoothTime);
         }
         else
         {
             // Reset dodge side when safe again
             dodgeSide = 0;
             // Smoothly return to no offset
-            avoidanceOffset = Vector3.SmoothDamp(avoidanceOffset, Vector3.zero, ref velocity, smoothTime);
+            offset_T = Vector3.zero;
         }
 
         // final position
-        transform.position = basePos + avoidanceOffset;
+        proxy.transform.position = transform.position + offset_T;
 
         // Rotate into combined forward + avoidance direction
-        Vector3 moveDir = (forward + avoidanceOffset.normalized * 0.5f).normalized;
-        if (moveDir.sqrMagnitude > 0.001f)
-        {
-            Quaternion targetRot = Quaternion.LookRotation(moveDir, Vector3.up);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, Time.deltaTime * turnSpeed);
-        }
+        Vector3 direction = (proxy.transform.position - prevPos).normalized;
+        Quaternion offset_R = Quaternion.FromToRotation(forward, direction);
+        proxy.transform.rotation = transform.rotation * offset_R;
+        prevPos = proxy.transform.position;
+    }
+
+    // Cubic ease in / ease out
+    private float ease(float x)
+    {
+        if(x < 0) return 0;
+        else if(x < 0.5) return 4 * Mathf.Pow(x, 3);
+        else return Mathf.Min(1 - Mathf.Pow(-2 * x + 2, 3) / 2, 1);
     }
 }
