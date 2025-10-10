@@ -2672,38 +2672,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 117685476}
   m_SourcePrefab: {fileID: 100100000, guid: 79353fbf7a67e4b13874043fee857b34, type: 3}
---- !u!1 &275248536
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 275248537}
-  m_Layer: 0
-  m_Name: fish_proxy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &275248537
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275248536}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1862872986}
-  m_Father: {fileID: 1750629928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &280179879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f94c95123d83451e9119196fc5c2e1c, type: 3}
@@ -17477,11 +17445,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 145374977}
+  m_Target: {fileID: 1022778664}
   m_PlayOnAwake: 1
   m_LoopMode: 1
   m_Method: 1
-  m_Duration: 1
+  m_Duration: 4.7887497
   m_MaxSpeed: 15.188091
   m_EasingMode: 0
   m_AlignmentMode: 1
@@ -17501,7 +17469,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 275248537}
+  - {fileID: 1862872986}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1750629929
@@ -19334,7 +19302,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 275248537}
+    m_TransformParent: {fileID: 1750629928}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 92e2d96974d6d4c85a2c960f830586bc, type: 3}
       propertyPath: m_LocalPosition.x

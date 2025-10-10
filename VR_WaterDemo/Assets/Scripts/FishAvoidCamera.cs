@@ -89,12 +89,15 @@ public class FishAvoidCamera : MonoBehaviour
         // final position
         proxy.transform.position = transform.position + offset_T;
 
-        // Rotate into combined forward + avoidance direction
-        Vector3 direction = (proxy.transform.position - prevPos).normalized;
-        Quaternion offset_R = Quaternion.FromToRotation(forward, direction);
-        proxy.transform.rotation = transform.rotation * offset_R;
-        prevPos = proxy.transform.position;
-    }
+        if (dist < distanceFromCamera)
+        {
+            // Rotate into combined forward + avoidance direction
+            Vector3 direction = (proxy.transform.position - prevPos).normalized;
+            Quaternion offset_R = Quaternion.FromToRotation(forward, direction);
+            proxy.transform.rotation = transform.rotation * offset_R;
+            prevPos = proxy.transform.position;
+        }
+}
 
     // Cubic ease in / ease out
     private float ease(float x)
