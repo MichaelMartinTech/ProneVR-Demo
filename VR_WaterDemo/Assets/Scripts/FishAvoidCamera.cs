@@ -25,6 +25,7 @@ public class FishAvoidCamera : MonoBehaviour
     private int dodgeSide = 0;               // -1 = left, +1 = right
 
     private Vector3 prevPos;
+    private Quaternion offset_R;
 
     void Awake()
     {
@@ -86,11 +87,13 @@ public class FishAvoidCamera : MonoBehaviour
         // final position
         proxy.transform.position = transform.position + offset_T;
 
+        proxy.transform.rotation = transform.rotation;
+        offset_R = Quaternion.identity;
         if (dist < distanceFromCamera)
         {
             // Rotate into combined forward + avoidance direction
             Vector3 direction = (proxy.transform.position - prevPos).normalized;
-            Quaternion offset_R = Quaternion.FromToRotation(forward, direction);
+            offset_R = Quaternion.FromToRotation(forward, direction);
             proxy.transform.rotation = transform.rotation * offset_R;
             prevPos = proxy.transform.position;
         }
@@ -102,5 +105,11 @@ public class FishAvoidCamera : MonoBehaviour
         if(x < 0) return 0;
         else if(x < 0.5) return 4 * Mathf.Pow(x, 3);
         else return Mathf.Min(1 - Mathf.Pow(-2 * x + 2, 3) / 2, 1);
+    }
+
+    // Returns the difference in rotation between frames
+    public Quaternion getOffset_R()
+    {
+        return offset_R;
     }
 }
