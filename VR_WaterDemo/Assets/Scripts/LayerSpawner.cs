@@ -2,19 +2,21 @@ using UnityEngine;
 
 public class LayerSpawner : MonoBehaviour
 {
-    public GameObject[] layers; // Layer prefabs
+    public GameObject[] prefabs; // Layer prefabs
+    [Range(3, 8)] public int numActiveLayers;
     [Range(0f, 200f)] public float speed; // speed in cm/sec
     public float maxStartHeight; // initial position of the highest layer
     public float spacing; // Adjust spacing between layers
     public GameObject camera; // camera object
 
     private int lastPrefab = -1; // prevent identical consecutive layers
-    private GameObject[] activeLayers = new GameObject[8];
+    private GameObject[] activeLayers;
     private int highestIndex = 0; // The current element of activeLayers highest in world space
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        activeLayers = new GameObject[numActiveLayers];
         for(int i = 0; i < activeLayers.Length; i++)
         {         
             activeLayers[i] = SpawnLayer(i);
@@ -43,9 +45,9 @@ public class LayerSpawner : MonoBehaviour
         int layerIndex = -1;
         do
         {
-            layerIndex = Random.Range(0, layers.Length);
+            layerIndex = Random.Range(0, prefabs.Length);
         } while (layerIndex == lastPrefab);
         lastPrefab = layerIndex;
-        return Instantiate(layers[layerIndex], new Vector3(0f, maxStartHeight + (2 - i) * spacing, 0f), Quaternion.identity);
+        return Instantiate(prefabs[layerIndex], new Vector3(0f, maxStartHeight + (2 - i) * spacing, 0f), Quaternion.identity);
     }
 }

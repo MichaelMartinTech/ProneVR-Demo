@@ -43,6 +43,11 @@ public class FishAvoidCamera : MonoBehaviour
     void Start() // run after all Awake() calls have finished.
     {
         targetCamera = CenterCameraManager.CenterCam;
+        if (transform.childCount != 1)
+        {
+            Debug.Log(transform.name + " has a FishAvoidCamera component but does not have exactly 1 child.");
+            return;
+        }
         proxy = transform.GetChild(0).gameObject;
     }
 
