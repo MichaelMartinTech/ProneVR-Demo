@@ -274,8 +274,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   drawDebug: 1
-  minCutoff: 100
-  maxCutoff: 22000
+  minCutoff: 90
+  maxCutoff: 400
   smoothSpeed: 10
 --- !u!1001 &7204911469187834497
 PrefabInstance:
