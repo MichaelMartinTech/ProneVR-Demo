@@ -4504,6 +4504,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1313141988399167528, guid: 1efa964dbff664005854d4f71a036b88, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bf6d40fe380f94eaba436ef6533ba70e, type: 2}
     - target: {fileID: 2905810635262901504, guid: 1efa964dbff664005854d4f71a036b88, type: 3}
       propertyPath: m_Method
       value: 1

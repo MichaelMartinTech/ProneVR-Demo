@@ -3108,6 +3108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 139987392294837762}
     m_Modifications:
+    - target: {fileID: 587164540980197747, guid: e68e83b11917c4e2a9a55b539e7015e4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bf6d40fe380f94eaba436ef6533ba70e, type: 2}
     - target: {fileID: 3290258147439510154, guid: e68e83b11917c4e2a9a55b539e7015e4, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3432,6 +3436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fish11_root
       objectReference: {fileID: 0}
+    - target: {fileID: 1306796046601073166, guid: 3ea361bce8655462d94302f9fba895b4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bf6d40fe380f94eaba436ef6533ba70e, type: 2}
     - target: {fileID: 4416230861115237551, guid: 3ea361bce8655462d94302f9fba895b4, type: 3}
       propertyPath: m_Method
       value: 1
@@ -3710,6 +3718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5605588736639692336, guid: 26951099fbaae4aeab6e0d3cf491c922, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bf6d40fe380f94eaba436ef6533ba70e, type: 2}
     - target: {fileID: 7507830280089323290, guid: 26951099fbaae4aeab6e0d3cf491c922, type: 3}
       propertyPath: m_Enabled
       value: 0
