@@ -28,7 +28,7 @@ public class LayerSpawner : MonoBehaviour
     {
         for(int i = 0; i < activeLayers.Length; i++)
         {
-            activeLayers[i].transform.position += new Vector3(0f, speed * Time.deltaTime / 100, 0f);
+            activeLayers[i].transform.Translate(0f, speed * Time.deltaTime / 100, 0f);
         }
         // Once the top layer makes it to the camera, replace it with a new layer at the bottom
         // 2 * spacing is to avoid jarring disappearance of cast shadows
@@ -48,6 +48,6 @@ public class LayerSpawner : MonoBehaviour
             layerIndex = Random.Range(0, prefabs.Length);
         } while (layerIndex == lastPrefab);
         lastPrefab = layerIndex;
-        return Instantiate(prefabs[layerIndex], new Vector3(0f, maxStartHeight + (2 - i) * spacing, 0f), Quaternion.identity);
+        return Instantiate(prefabs[layerIndex], new Vector3(0f, maxStartHeight - i * spacing, 0f), Quaternion.identity);
     }
 }
