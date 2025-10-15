@@ -9,6 +9,9 @@ A Unity-based VR application designed to support research towards immersive, pat
 **Goal**: Provide a calming underwater VR environment during medical procedures, helping reduce anxiety and improve comfort.  
 
 ---
+## 10/15/2025 Update - Spatial Sound implementation + Improved Fish movement
+
+[Demo-Video_10-15-2025](https://github.com/user-attachments/assets/004bc2b4-9632-4471-8ed6-a80409c1a686)
 
 ## Added Features (as of 10/3/2025)
 
