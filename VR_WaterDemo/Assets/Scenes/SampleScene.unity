@@ -28395,6 +28395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4698980371620777237, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5201478737883428461, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.92
@@ -28444,10 +28448,23 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8700363840258406271, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
+      propertyPath: m_Method
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700363840258406271, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 145374977}
-    m_RemovedComponents: []
+    - target: {fileID: 8700363840258406271, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
+      propertyPath: m_Duration
+      value: 3.0376182
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700363840258406271, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
+      propertyPath: m_MaxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4698980371620777237, guid: 2e1bc0845406b44a4a5511d999852aa4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
